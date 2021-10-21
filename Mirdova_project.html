@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art galleries in Vienna</title>
+    <style>
+      body {
+        background: radial-gradient(
+          circle at 20% 50%,
+          rgba(100, 46, 122, 0.15) 39.5%,
+          rgb(255, 246, 236) 100.2%
+        );
+      }
+      button {
+        background-color: rgba(188, 143, 143, 0.5);
+        border: white solid 2px;
+        border-radius: 40px;
+        color: white;
+        display: block;
+        font-size: 27px;
+        font-weight: bold;
+        margin: 20px auto;
+        padding: 20px 30px;
+        transition: 200ms ease-in-out;
+      }
+      button:hover {
+        background-color: rgba(188, 143, 143, 0.9);
+        cursor: pointer;
+      }
+      h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 50px;
+        padding-bottom: 10px;
+        padding-top: 80px;
+        text-align: center;
+      }
+      h2 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 22px;
+        line-height: 35px;
+        max-width: 80%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        text-align: center;
+      }
+      h3 {
+        font-size: 30px;
+        text-align: center;
+      }
+      h4 {
+        font-size: 30px;
+        line-height: 75px;
+        margin-top: 0;
+        text-align: center;
+      }
+      hr {
+        background-color: black;
+        border-radius: 15px;
+        height: 2px;
+        width: 1200px;
+      }
+      ul {
+        display: block;
+        margin: 0 auto;
+      }
+      li {
+        display: inline-block;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        list-style-type: none;
+
+        height: 1930px;
+        margin: 20px auto;
+        padding: 40px;
+        width: 360px;
+        transition: all 400ms ease-in-out;
+      }
+      li:hover {
+        background-color: rgba(188, 143, 143, 0.15);
+        border-radius: 40px;
+      }
+      .artworkAuthor {
+        color: grey;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 10px 25px 10px;
+        text-align: center;
+      }
+      .artworkImage {
+        border: solid grey 2px;
+        border-radius: 10px;
+        display: block;
+        width: 320px;
+        margin: 0 auto;
+      }
+      .galleryDescription {
+        font-size: 20px;
+        line-height: 30px;
+
+        text-align: justify;
+      }
+      .galleryImage {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        max-height: 300px;
+        max-width: 300px;
+      }
+      .galleryLink {
+        background-color: rgba(188, 143, 143, 0.5);
+        border-radius: 30px;
+        color: white;
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 30px auto;
+        max-width: 80px;
+        padding: 15px 20px;
+
+        text-align: center;
+        text-decoration: none;
+      }
+      .signature {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 18px;
+        padding: 20px;
+        text-align: center;
+      }
+      .signatureLink {
+        color: black;
+
+        font-weight: bold;
+      }
+      .wholeContent {
+        background: white;
+        border-radius: 40px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        margin: 15px auto;
+
+        width: 1400px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wholeContent">
+      <h1>Art galleries in Vienna</h1>
+      <h2>
+        I absolutely love my home country, Slovakia, with its culture, people
+        and cuisine.<br />However, when I was a little girl I fell in love with
+        Vienna and visited almost all of its galleries even before I managed to
+        move to Austria. Thus, I decided to prepare a little guide for you<br />as
+        my final project for SheCodes Basics!<br />
+        Hope you will enjoy and learn something new!
+      </h2>
+      <ul>
+        <li>
+          <img
+            class="galleryImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/515/original/0.jpg?1633783954"
+          />
+          <h3>Museum of Art History</h3>
+          <p class="galleryDescription">
+            It is the largest art museum in the country and one of the most
+            important museums worldwide.<br />The museum's primary collections
+            are those of the Habsburgs.<br />The interiors of the museums are
+            lavishly decorated with marble, stucco ornamentation, gold-leaf and
+            murals.
+          </p>
+          <a class="galleryLink" href="https://www.khm.at/en/" target="_blank"
+            >Website</a
+          >
+          <img
+            class="artworkImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/525/original/300px-Raphael_-_Madonna_in_the_Meadow_-_Google_Art_Project.jpg?1633787291"
+          />
+          <div class="artworkAuthor">
+            Madonna of the Meadow (cropped)<br />Raphael
+          </div>
+          <img
+            class="artworkImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/529/original/1280px-Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_%28Vienna%29_-_Google_Art_Project_-_edited.jpg?1633788958"
+          />
+          <div class="artworkAuthor">
+            The Tower of Babel (cropped)<br />Pieter Brueghel the Elder
+          </div>
+
+          <img
+            class="artworkImage"
+            src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/530/original/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg?1633790478"
+          />
+          <div class="artworkAuthor">
+            The Art of Painting (cropped)<br />Johannes Vermeer
+          </div>
+        </li>
+        <li>
+          <img
+            class="galleryImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/514/original/thumb_14166748_cover_header.jpeg?1633783950"
+          />
+          <h3>Belvedere</h3>
+          <p class="galleryDescription">
+            The buildings are set in a Baroque park landscape in the third
+            district, on the south-eastern edge of its centre.<br />Its famous
+            art collection includes works ranging from the Middle Ages to the
+            present day, including the world's largest collection of Gustav
+            Klimt paintings.
+          </p>
+          <a
+            class="galleryLink"
+            href="https://www.belvedere.at/en?"
+            target="_blank"
+            >Website</a
+          >
+          <img
+            class="artworkImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/526/original/gustav-klimt-kiss-i106942.jpg?1633788286"
+          />
+          <div class="artworkAuthor">The Kiss (cropped)<br />Gustav Klimt</div>
+          <img
+            class="artworkImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/678/original/1007-2017-4.jpg?1633947730"
+          />
+          <div class="artworkAuthor">
+            The Plain of Auvers (cropped)<br />
+            Vincent van Gogh
+          </div>
+          <img
+            class="artworkImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/527/original/540-2014-2.jpg?1633788292"
+          />
+          <div class="artworkAuthor">
+            Portrait of Pere Paul (cropped)<br />Claude Monet
+          </div>
+        </li>
+        <li>
+          <img
+            class="galleryImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/513/original/mumok_architekturfoto_mirau_2018_4.png?1633783726"
+          />
+          <h3>Mumok</h3>
+          <p class="galleryDescription">
+            The mumok, a striking dark grey cuboid, is the largest museum in
+            Central Europe for art since modernism.<br />Mumok has an unusual
+            collection featuring important works from Classic Modernism, Pop
+            Art, Fluxus, and Viennese Actionism to present-day film and media
+            art.
+          </p>
+          <a class="galleryLink" href="https://www.mumok.at/en" target="_blank"
+            >Website</a
+          >
+          <img
+            class="artworkImage"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/537/original/femme_assise_a_l_echarpe_verde_c_1960-14334.jpg?1633791618"
+          />
+          <div class="artworkAuthor">
+            Femme assise a l'écharpe verte (cropped)<br />Pablo Picasso
+          </div>
+          <img
+            class="artworkImage"
+            src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/532/original/ol-stg_139_0_he01_print_0.jpg?1633791052"
+          />
+          <div class="artworkAuthor">Tea Party<br />Niki de Saint Phalle</div>
+          <img
+            class="artworkImage"
+            src="
+https://s3.amazonaws.com/shecodesio-production/uploads/files/000/018/534/original/00023594_m.jpg?1633791312"
+          />
+          <div class="artworkAuthor">
+            Rest der Schwimmerin (cropped)<br />Maria Lassnig
+          </div>
+        </li>
+      </ul>
+      <hr />
+      <h4>
+        Personal recommendation for you:<br />(Click the button below & answer
+        two questions)
+      </h4>
+      <button>Personal recommendation</button>
+    </div>
+    <div class="signature">
+      Coded with love 🤍 by
+      <a
+        class="signatureLink"
+        target="_blank"
+        href="https://at.linkedin.com/in/lenka-mirdova "
+        >Lenka Mirdova</a
+      >
+    </div>
+    <script>
+      function personalRecommendation() {
+        let name = prompt("Welcome! What is your name?");
+        let modern = prompt("Do you prefer modern art? (yes/no)");
+        modern = modern.toLowerCase();
+        let klimt = prompt(
+          "Are you a fan of one of the most famous Austrian painters, Gustav Klimt? (yes/no)"
+        );
+        klimt = klimt.toLowerCase();
+        let h4 = document.querySelector("h4");
+
+        if (modern === "yes") {
+          h4.innerHTML =
+            "Personal recommendation for " + name + ":<br>Visit Mumok first!";
+        } else if (modern === "no" && klimt === "yes") {
+          h4.innerHTML =
+            "Personal recommendation for " +
+            name +
+            ":<br>Visit Belvedere first!";
+        } else if (modern === "no" && klimt === "no") {
+          h4.innerHTML =
+            "Personal recommendation for " +
+            name +
+            ":<br>Visit The Museum of Art History first!";
+        }
+      }
+
+      let buttonClick = document.querySelector("button");
+      buttonClick.addEventListener("click", personalRecommendation);
+    </script>
+  </body>
+</html>
